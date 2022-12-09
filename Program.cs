@@ -59,6 +59,7 @@
             }
             catch (System.IO.DirectoryNotFoundException)
             {
+                Console.WriteLine();
                 Console.Write($"ERRO: Diretório não encontrado");
             }
             catch (System.ArgumentException)
