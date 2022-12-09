@@ -57,7 +57,11 @@
                     }
                 }
             }
-            catch (System.ArgumentException e)
+            catch (System.IO.DirectoryNotFoundException)
+            {
+                Console.Write($"ERRO: Diretório não encontrado");
+            }
+            catch (System.ArgumentException)
             {
                 Console.WriteLine();
                 Console.WriteLine($"ERRO: O caminho do arquivo não pode ser vazio.");
