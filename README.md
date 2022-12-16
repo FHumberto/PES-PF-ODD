@@ -6,8 +6,9 @@ Projeto exclusivamente console, feito para por em prática os conhecimentos adqu
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#%EF%B8%8F-Roadmap">Roadmap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -36,6 +37,10 @@ O programa compara os arquivos listados no diretório com os formatos de arquivo
 - Vídeo
 
 ![Demo](Project/Demo.gif)
+
+## 🗺️ Roadmap
+
+**[Aqui](https://github.com/FHumberto/PES-PF-ODD/wiki)** você encontra a lista com as futuras atualizações desse projeto.
 
 ## :memo: Licença
 

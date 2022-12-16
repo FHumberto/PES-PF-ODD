@@ -41,11 +41,13 @@
                     folderFiles[2] = allFiles.Where(a => mscExtensions.Any(x => a.EndsWith(x)));
                     folderFiles[3] = allFiles.Where(a => vidExtensions.Any(x => a.EndsWith(x)));
 
+                    Console.WriteLine();
                     // CRIA AS PASTAS
                     for (int i = 0; i < foldersCategory.Length; i++)
                     {
                         if (!Directory.Exists(sourcePath + foldersCategory[i]))
                         {
+                            Console.WriteLine($"\n[Diretório criado]: {sourcePath + foldersCategory[i]}");
                             Directory.CreateDirectory(sourcePath + foldersCategory[i]);
                         }
 
@@ -68,7 +70,7 @@
                             {
                                 // MOVE OS ARQUIVOS.
                                 File.Move(olderPath, newPath, false);
-                                Console.WriteLine($"{olderPath} [movido para] {newPath}.");
+                                Console.WriteLine($"[Arquivo] {olderPath} [movido para] {newPath}.");
                             }
                         }
                     }
@@ -83,6 +85,12 @@
             {
                 Console.WriteLine();
                 Console.WriteLine($"[ERRO]: O caminho do arquivo não pode ser vazio.");
+            }
+            finally
+            {
+                Console.WriteLine();
+                Console.WriteLine("Pressione qualquer tecla para encerrar o programa.");
+                Console.ReadKey();
             }
         }
     }
