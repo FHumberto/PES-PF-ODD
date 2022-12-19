@@ -36,11 +36,11 @@ O programa compara os arquivos listados no diretório com os formatos de arquivo
 - Música
 - Vídeo
 
-![Demo](Project/Demo.gif)
+![Demo](project/demo.gif)
 
 ## 🗺️ Roadmap
 
-**[Aqui](https://github.com/FHumberto/PES-PF-ODD/wiki)** você encontra a lista com as futuras atualizações desse projeto.
+**[Aqui](https://github.com/FHumberto/PES-PF-ODD/wiki/Roadmap)** você encontra a lista com as futuras atualizações desse projeto.
 
 ## :memo: Licença
 
