@@ -1,5 +1,6 @@
 {
-  "name": "Organizador de Arquivos ODD",
+  "name": "Organizador de Arquivos",
+  "demo": "https://raw.githubusercontent.com/FHumberto/PES-PF-ODD/main/project/demo.gif"
   "tech": "C# e .NET 6.0",
   "description": "Projeto console que faz o agrupamento de arquivos semelhantes no diretório informado em diferentes categorias. Desenvolvido com o objetivo de suprir uma necessidade do autor do projeto."
 }
